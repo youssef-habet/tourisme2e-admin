@@ -8,7 +8,6 @@ const AdminSidebar = () => {
     { to: '/offres', icon: <Tag size={18} />, label: 'Offres Catalogue' },
     { to: '/groupes', icon: <Package size={18} />, label: 'Gestion des Groupes' },
     { to: '/devis', icon: <FileText size={18} />, label: 'Demandes de Devis' },
-    { to: '/inscriptions', icon: <Users size={18} />, label: 'Inscriptions BD' },
     { to: '/hotels', icon: <Home size={18} />, label: 'Hôtels & Centres' },
     { to: '/sites', icon: <Map size={18} />, label: 'Sites Touristiques' },
     { to: '/services', icon: <Briefcase size={18} />, label: 'Services' },
