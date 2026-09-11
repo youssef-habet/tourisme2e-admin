@@ -11,7 +11,7 @@ import PartenairesManagement from './pages/PartenairesManagement'
 import TestimonialsManagement from './pages/TestimonialsManagement'
 import InscriptionsDatabase from './pages/InscriptionsDatabase'
 import DevisManagement from './pages/DevisManagement'
-import ComingSoon from './pages/ComingSoon'
+
 import Login from './pages/Login'
 import AdminsManagement from './pages/AdminsManagement'
 
