@@ -9,7 +9,6 @@ import SitesTouristiquesManagement from './pages/SitesTouristiquesManagement'
 import ServicesManagement from './pages/ServicesManagement'
 import PartenairesManagement from './pages/PartenairesManagement'
 import TestimonialsManagement from './pages/TestimonialsManagement'
-import InscriptionsDatabase from './pages/InscriptionsDatabase'
 import DevisManagement from './pages/DevisManagement'
 
 import Login from './pages/Login'
@@ -34,7 +33,7 @@ function App() {
         <Route path="groupes" element={<GroupesManagement />} />
         <Route path="hotels" element={<HotelsManagement />} />
         <Route path="sites" element={<SitesTouristiquesManagement />} />
-        <Route path="inscriptions" element={<InscriptionsDatabase />} />
+      
         <Route path="devis" element={<DevisManagement />} />
         
         <Route path="services" element={<ServicesManagement />} />
