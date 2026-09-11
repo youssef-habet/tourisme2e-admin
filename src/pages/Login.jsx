@@ -30,7 +30,13 @@ const Login = () => {
       localStorage.setItem('user', JSON.stringify(meResponse.data));
       navigate('/');
     } catch (err) {
-      setError('Identifiants incorrects');
+      if (!err.response) {
+        setError('Impossible de contacter le serveur. Vérifiez le domaine API et la connexion Cloudflare.');
+      } else if (err.response.status === 401) {
+        setError('Identifiants incorrects');
+      } else {
+        setError(err.response.data?.message || `Erreur serveur (${err.response.status})`);
+      }
     } finally {
       setLoading(false);
     }
